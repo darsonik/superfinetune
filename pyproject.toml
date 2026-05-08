@@ -1,0 +1,11 @@
+[project]
+name = "finetuning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "adaption>=0.3.1",
+    "kagglehub[pandas-datasets]>=1.0.1",
+    "python-dotenv>=1.2.2",
+]
