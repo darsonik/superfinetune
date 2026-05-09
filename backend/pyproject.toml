@@ -6,6 +6,10 @@ readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "adaption>=0.3.1",
+    "fastapi>=0.136.1",
     "kagglehub[pandas-datasets]>=1.0.1",
+    "pydantic>=2.13.3",
     "python-dotenv>=1.2.2",
+    "supabase>=2.30.0",
+    "uvicorn>=0.46.0",
 ]
